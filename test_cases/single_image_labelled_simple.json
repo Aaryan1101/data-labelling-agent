@@ -1,0 +1,27 @@
+{
+  "image_path": "vision data/auto_label_dataset/circle_01.png",
+  "detection_method": "opencv_contour_analysis",
+  "image_dimensions": {
+    "width": 400,
+    "height": 400,
+    "channels": 3
+  },
+  "num_detections": 1,
+  "objects": [
+    {
+      "id": 1,
+      "label": "square",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 400,
+        "height": 400,
+        "center_x": 200,
+        "center_y": 200
+      },
+      "area": 159201.0,
+      "vertices": 4
+    }
+  ]
+}

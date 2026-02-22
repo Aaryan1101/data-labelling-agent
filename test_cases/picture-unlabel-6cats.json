@@ -1,0 +1,101 @@
+{
+  "image_path": "picture-unlabel.webp",
+  "filename": "picture-unlabel.webp",
+  "timestamp": "2026-02-22T04:14:53.546521",
+  "image_dimensions": {
+    "width": 575,
+    "height": 280,
+    "channels": 3
+  },
+  "detection_method": "strict_cat_classification",
+  "classification_type": "filtered_cat_labels",
+  "target_count": 6,
+  "actual_count": 4,
+  "num_detections": 4,
+  "objects": [
+    {
+      "id": 1,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 154,
+        "y": 73,
+        "width": 20,
+        "height": 36,
+        "center_x": 164,
+        "center_y": 91
+      },
+      "area": 380.5,
+      "circularity": 0.37,
+      "aspect_ratio": 0.56,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "top",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 2,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 188,
+        "y": 68,
+        "width": 21,
+        "height": 34,
+        "center_x": 198,
+        "center_y": 85
+      },
+      "area": 301.5,
+      "circularity": 0.225,
+      "aspect_ratio": 0.62,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "top",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 3,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 230,
+        "y": 53,
+        "width": 61,
+        "height": 153,
+        "center_x": 260,
+        "center_y": 129
+      },
+      "area": 6479.0,
+      "circularity": 0.332,
+      "aspect_ratio": 0.4,
+      "cat_attributes": {
+        "size_category": "large",
+        "position": "top",
+        "estimated_age": "mature"
+      }
+    },
+    {
+      "id": 4,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 361,
+        "y": 47,
+        "width": 67,
+        "height": 161,
+        "center_x": 394,
+        "center_y": 127
+      },
+      "area": 7129.5,
+      "circularity": 0.26,
+      "aspect_ratio": 0.42,
+      "cat_attributes": {
+        "size_category": "large",
+        "position": "top",
+        "estimated_age": "mature"
+      }
+    }
+  ]
+}

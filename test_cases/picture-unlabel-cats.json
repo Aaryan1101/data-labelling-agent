@@ -1,0 +1,509 @@
+{
+  "image_path": "picture-unlabel.webp",
+  "filename": "picture-unlabel.webp",
+  "timestamp": "2026-02-22T04:12:48.156329",
+  "image_dimensions": {
+    "width": 575,
+    "height": 280,
+    "channels": 3
+  },
+  "detection_method": "cat_classification_algorithm",
+  "classification_type": "custom_cat_labels",
+  "num_detections": 26,
+  "objects": [
+    {
+      "id": 2,
+      "label": "kitten",
+      "confidence": 0.85,
+      "bbox": {
+        "x": 292,
+        "y": 192,
+        "width": 18,
+        "height": 12,
+        "center_x": 301,
+        "center_y": 198
+      },
+      "area": 129.5,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "middle",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 3,
+      "label": "kitten",
+      "confidence": 0.85,
+      "bbox": {
+        "x": 129,
+        "y": 192,
+        "width": 16,
+        "height": 10,
+        "center_x": 137,
+        "center_y": 197
+      },
+      "area": 88.5,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "middle",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 5,
+      "label": "kitten",
+      "confidence": 0.85,
+      "bbox": {
+        "x": 103,
+        "y": 188,
+        "width": 25,
+        "height": 14,
+        "center_x": 115,
+        "center_y": 195
+      },
+      "area": 188.5,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "middle",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 6,
+      "label": "cat",
+      "confidence": 0.8,
+      "bbox": {
+        "x": 333,
+        "y": 187,
+        "width": 26,
+        "height": 17,
+        "center_x": 346,
+        "center_y": 195
+      },
+      "area": 209.0,
+      "cat_attributes": {
+        "size_category": "medium",
+        "position": "middle",
+        "estimated_age": "adult"
+      }
+    },
+    {
+      "id": 7,
+      "label": "kitten",
+      "confidence": 0.85,
+      "bbox": {
+        "x": 213,
+        "y": 187,
+        "width": 17,
+        "height": 13,
+        "center_x": 221,
+        "center_y": 193
+      },
+      "area": 136.5,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "middle",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 12,
+      "label": "cat",
+      "confidence": 0.8,
+      "bbox": {
+        "x": 430,
+        "y": 180,
+        "width": 18,
+        "height": 22,
+        "center_x": 439,
+        "center_y": 191
+      },
+      "area": 208.5,
+      "cat_attributes": {
+        "size_category": "medium",
+        "position": "middle",
+        "estimated_age": "adult"
+      }
+    },
+    {
+      "id": 13,
+      "label": "cat",
+      "confidence": 0.8,
+      "bbox": {
+        "x": 361,
+        "y": 176,
+        "width": 18,
+        "height": 25,
+        "center_x": 370,
+        "center_y": 188
+      },
+      "area": 227.0,
+      "cat_attributes": {
+        "size_category": "medium",
+        "position": "middle",
+        "estimated_age": "adult"
+      }
+    },
+    {
+      "id": 14,
+      "label": "cat",
+      "confidence": 0.8,
+      "bbox": {
+        "x": 157,
+        "y": 176,
+        "width": 32,
+        "height": 30,
+        "center_x": 173,
+        "center_y": 191
+      },
+      "area": 412.5,
+      "cat_attributes": {
+        "size_category": "medium",
+        "position": "middle",
+        "estimated_age": "adult"
+      }
+    },
+    {
+      "id": 16,
+      "label": "cat",
+      "confidence": 0.8,
+      "bbox": {
+        "x": 191,
+        "y": 174,
+        "width": 19,
+        "height": 29,
+        "center_x": 200,
+        "center_y": 188
+      },
+      "area": 238.0,
+      "cat_attributes": {
+        "size_category": "medium",
+        "position": "middle",
+        "estimated_age": "adult"
+      }
+    },
+    {
+      "id": 17,
+      "label": "kitten",
+      "confidence": 0.85,
+      "bbox": {
+        "x": 305,
+        "y": 169,
+        "width": 16,
+        "height": 28,
+        "center_x": 313,
+        "center_y": 183
+      },
+      "area": 170.0,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "middle",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 19,
+      "label": "cat",
+      "confidence": 0.8,
+      "bbox": {
+        "x": 450,
+        "y": 167,
+        "width": 33,
+        "height": 36,
+        "center_x": 466,
+        "center_y": 185
+      },
+      "area": 628.5,
+      "cat_attributes": {
+        "size_category": "medium",
+        "position": "middle",
+        "estimated_age": "adult"
+      }
+    },
+    {
+      "id": 20,
+      "label": "kitten",
+      "confidence": 0.85,
+      "bbox": {
+        "x": 334,
+        "y": 167,
+        "width": 12,
+        "height": 14,
+        "center_x": 340,
+        "center_y": 174
+      },
+      "area": 55.5,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "middle",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 26,
+      "label": "kitten",
+      "confidence": 0.85,
+      "bbox": {
+        "x": 381,
+        "y": 155,
+        "width": 13,
+        "height": 10,
+        "center_x": 387,
+        "center_y": 160
+      },
+      "area": 62.5,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "middle",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 27,
+      "label": "kitten",
+      "confidence": 0.85,
+      "bbox": {
+        "x": 303,
+        "y": 154,
+        "width": 12,
+        "height": 11,
+        "center_x": 309,
+        "center_y": 159
+      },
+      "area": 50.0,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "middle",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 38,
+      "label": "kitten",
+      "confidence": 0.85,
+      "bbox": {
+        "x": 123,
+        "y": 142,
+        "width": 12,
+        "height": 20,
+        "center_x": 129,
+        "center_y": 152
+      },
+      "area": 69.0,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "middle",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 46,
+      "label": "cat",
+      "confidence": 0.8,
+      "bbox": {
+        "x": 437,
+        "y": 121,
+        "width": 46,
+        "height": 59,
+        "center_x": 460,
+        "center_y": 150
+      },
+      "area": 1258.5,
+      "cat_attributes": {
+        "size_category": "medium",
+        "position": "middle",
+        "estimated_age": "adult"
+      }
+    },
+    {
+      "id": 65,
+      "label": "cat",
+      "confidence": 0.8,
+      "bbox": {
+        "x": 158,
+        "y": 103,
+        "width": 53,
+        "height": 76,
+        "center_x": 184,
+        "center_y": 141
+      },
+      "area": 1604.5,
+      "cat_attributes": {
+        "size_category": "medium",
+        "position": "middle",
+        "estimated_age": "adult"
+      }
+    },
+    {
+      "id": 69,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 102,
+        "y": 97,
+        "width": 39,
+        "height": 30,
+        "center_x": 121,
+        "center_y": 112
+      },
+      "area": 457.5,
+      "cat_attributes": {
+        "size_category": "medium",
+        "position": "top",
+        "estimated_age": "adult"
+      }
+    },
+    {
+      "id": 76,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 454,
+        "y": 90,
+        "width": 17,
+        "height": 31,
+        "center_x": 462,
+        "center_y": 105
+      },
+      "area": 136.0,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "top",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 91,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 300,
+        "y": 81,
+        "width": 47,
+        "height": 89,
+        "center_x": 323,
+        "center_y": 125
+      },
+      "area": 1807.0,
+      "cat_attributes": {
+        "size_category": "medium",
+        "position": "top",
+        "estimated_age": "adult"
+      }
+    },
+    {
+      "id": 97,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 155,
+        "y": 74,
+        "width": 16,
+        "height": 17,
+        "center_x": 163,
+        "center_y": 82
+      },
+      "area": 93.5,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "top",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 98,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 188,
+        "y": 69,
+        "width": 17,
+        "height": 24,
+        "center_x": 196,
+        "center_y": 81
+      },
+      "area": 104.5,
+      "cat_attributes": {
+        "size_category": "small",
+        "position": "top",
+        "estimated_age": "young"
+      }
+    },
+    {
+      "id": 100,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 331,
+        "y": 59,
+        "width": 24,
+        "height": 35,
+        "center_x": 343,
+        "center_y": 76
+      },
+      "area": 359.0,
+      "cat_attributes": {
+        "size_category": "medium",
+        "position": "top",
+        "estimated_age": "adult"
+      }
+    },
+    {
+      "id": 101,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 231,
+        "y": 55,
+        "width": 58,
+        "height": 150,
+        "center_x": 260,
+        "center_y": 130
+      },
+      "area": 5981.5,
+      "cat_attributes": {
+        "size_category": "large",
+        "position": "top",
+        "estimated_age": "mature"
+      }
+    },
+    {
+      "id": 102,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 307,
+        "y": 50,
+        "width": 19,
+        "height": 33,
+        "center_x": 316,
+        "center_y": 66
+      },
+      "area": 342.0,
+      "cat_attributes": {
+        "size_category": "medium",
+        "position": "top",
+        "estimated_age": "adult"
+      }
+    },
+    {
+      "id": 103,
+      "label": "jumping_cat",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 369,
+        "y": 47,
+        "width": 58,
+        "height": 160,
+        "center_x": 398,
+        "center_y": 127
+      },
+      "area": 5279.5,
+      "cat_attributes": {
+        "size_category": "large",
+        "position": "top",
+        "estimated_age": "mature"
+      }
+    }
+  ]
+}

@@ -770,8 +770,9 @@ if __name__ == "__main__":
         config_dir=".agent-labelling",
         use_ngrok=True,
         ngrok_auth_token=os.environ.get(
-            "2qnJ7BnoYYdxkmOTtKLNkCkIgIr_4icmFZy9xv7vNLPjDKG6Z"
-        ),
+            "NGROK_AUTH_TOKEN"
+        ),  # Or set globally via: ngrok config add-authtoken <token>,
+        webhook_methods=["GET", "POST", "PUT", "DELETE"]  # Allow all HTTP methods
     )
 
     zynd_agent = ZyndAIAgent(agent_config=agent_config)

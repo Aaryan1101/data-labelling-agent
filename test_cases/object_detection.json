@@ -1,0 +1,17 @@
+{
+  "image_path": "vision data/auto_label_dataset/circle_01.png",
+  "detection_method": "mock_grounding_dino",
+  "objects": [
+    {
+      "label": "circle",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 50,
+        "y": 50,
+        "width": 200,
+        "height": 200
+      }
+    }
+  ],
+  "total_objects": 1
+}

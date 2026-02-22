@@ -1,0 +1,325 @@
+{
+  "batch_info": {
+    "total_images": 15,
+    "processing_time_seconds": 0.62,
+    "avg_time_per_image": 0.041,
+    "timestamp": "2026-02-22T04:07:21.085444"
+  },
+  "results": [
+    {
+      "image_path": "vision data/auto_label_dataset\\circle_01.png",
+      "filename": "circle_01.png",
+      "annotated_image_path": "annotated_images\\annotated_circle_01.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "circle",
+          "confidence": 0.897,
+          "bbox": {
+            "x": 84,
+            "y": 99,
+            "width": 196,
+            "height": 216
+          },
+          "area": 32933.0
+        }
+      ],
+      "processing_time": 0.5152039527893066
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\circle_05.png",
+      "filename": "circle_05.png",
+      "annotated_image_path": "annotated_images\\annotated_circle_05.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "circle",
+          "confidence": 0.888,
+          "bbox": {
+            "x": 117,
+            "y": 99,
+            "width": 159,
+            "height": 193
+          },
+          "area": 23818.0
+        }
+      ],
+      "processing_time": 0.5238046646118164
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\circle_09.png",
+      "filename": "circle_09.png",
+      "annotated_image_path": "annotated_images\\annotated_circle_09.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "circle",
+          "confidence": 0.886,
+          "bbox": {
+            "x": 110,
+            "y": 78,
+            "width": 206,
+            "height": 252
+          },
+          "area": 40423.0
+        }
+      ],
+      "processing_time": 0.5324246883392334
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\circle_13.png",
+      "filename": "circle_13.png",
+      "annotated_image_path": "annotated_images\\annotated_circle_13.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "circle",
+          "confidence": 0.891,
+          "bbox": {
+            "x": 71,
+            "y": 112,
+            "width": 252,
+            "height": 218
+          },
+          "area": 42791.0
+        }
+      ],
+      "processing_time": 0.5384345054626465
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\rectangle_04.png",
+      "filename": "rectangle_04.png",
+      "annotated_image_path": "annotated_images\\annotated_rectangle_04.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "rectangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 120,
+            "y": 152,
+            "width": 165,
+            "height": 92
+          },
+          "area": 14924.0
+        }
+      ],
+      "processing_time": 0.5449275970458984
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\rectangle_08.png",
+      "filename": "rectangle_08.png",
+      "annotated_image_path": "annotated_images\\annotated_rectangle_08.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "rectangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 117,
+            "y": 145,
+            "width": 193,
+            "height": 114
+          },
+          "area": 21696.0
+        }
+      ],
+      "processing_time": 0.5529129505157471
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\rectangle_12.png",
+      "filename": "rectangle_12.png",
+      "annotated_image_path": "annotated_images\\annotated_rectangle_12.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "rectangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 125,
+            "y": 149,
+            "width": 158,
+            "height": 101
+          },
+          "area": 15700.0
+        }
+      ],
+      "processing_time": 0.5594394207000732
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\square_02.png",
+      "filename": "square_02.png",
+      "annotated_image_path": "annotated_images\\annotated_square_02.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "square",
+          "confidence": 0.9,
+          "bbox": {
+            "x": 121,
+            "y": 110,
+            "width": 158,
+            "height": 178
+          },
+          "area": 27789.0
+        }
+      ],
+      "processing_time": 0.567596435546875
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\square_06.png",
+      "filename": "square_06.png",
+      "annotated_image_path": "annotated_images\\annotated_square_06.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "square",
+          "confidence": 0.9,
+          "bbox": {
+            "x": 73,
+            "y": 75,
+            "width": 253,
+            "height": 218
+          },
+          "area": 54684.0
+        }
+      ],
+      "processing_time": 0.5736334323883057
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\square_10.png",
+      "filename": "square_10.png",
+      "annotated_image_path": "annotated_images\\annotated_square_10.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "square",
+          "confidence": 0.9,
+          "bbox": {
+            "x": 78,
+            "y": 77,
+            "width": 216,
+            "height": 223
+          },
+          "area": 47730.0
+        }
+      ],
+      "processing_time": 0.5808901786804199
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\square_14.png",
+      "filename": "square_14.png",
+      "annotated_image_path": "annotated_images\\annotated_square_14.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "rectangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 119,
+            "y": 124,
+            "width": 192,
+            "height": 153
+          },
+          "area": 29032.0
+        }
+      ],
+      "processing_time": 0.5860819816589355
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\triangle_03.png",
+      "filename": "triangle_03.png",
+      "annotated_image_path": "annotated_images\\annotated_triangle_03.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "triangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 92,
+            "y": 81,
+            "width": 212,
+            "height": 193
+          },
+          "area": 20249.5
+        }
+      ],
+      "processing_time": 0.5911040306091309
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\triangle_07.png",
+      "filename": "triangle_07.png",
+      "annotated_image_path": "annotated_images\\annotated_triangle_07.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "triangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 73,
+            "y": 78,
+            "width": 203,
+            "height": 194
+          },
+          "area": 19493.0
+        }
+      ],
+      "processing_time": 0.6025629043579102
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\triangle_11.png",
+      "filename": "triangle_11.png",
+      "annotated_image_path": "annotated_images\\annotated_triangle_11.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "triangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 130,
+            "y": 92,
+            "width": 169,
+            "height": 198
+          },
+          "area": 16548.0
+        }
+      ],
+      "processing_time": 0.609093427658081
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\triangle_15.png",
+      "filename": "triangle_15.png",
+      "annotated_image_path": "annotated_images\\annotated_triangle_15.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "triangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 89,
+            "y": 75,
+            "width": 224,
+            "height": 226
+          },
+          "area": 25087.5
+        }
+      ],
+      "processing_time": 0.620389461517334
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "batch_info": {
+    "total_items": 100,
+    "processed_items": 20,
+    "processing_time_seconds": 30.7,
+    "avg_time_per_item": 1.535,
+    "timestamp": "2026-02-22T04:08:05.318807"
+  },
+  "results": [
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "1",
+      "type": "review",
+      "original_text": "This product completely exceeded my expectations. The build quality is exceptional and it works flawlessly.",
+      "classification": {
+        "sentiment": "positive",
+        "confidence": 0.95,
+        "reasoning": "The text expresses strong positive feelings using phrases like 'completely exceeded my expectations,' 'exceptional build quality,' and 'works flawlessly'."
+      },
+      "processing_time": 2.304130792617798
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "2",
+      "type": "review",
+      "original_text": "Terrible experience. Broke within 2 days of use and customer service was unhelpful.",
+      "classification": {
+        "sentiment": "negative",
+        "confidence": 0.95,
+        "reasoning": "The text uses strongly negative words like 'terrible,' 'broke,' and 'unhelpful,' indicating a very poor experience."
+      },
+      "processing_time": 4.141852378845215
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "3",
+      "type": "review",
+      "original_text": "It's decent for the price. Not amazing but gets the job done. Shipping was fast.",
+      "classification": {
+        "sentiment": "positive",
+        "confidence": 0.7,
+        "reasoning": "While acknowledging it's not 'amazing,' the text highlights 'decent' quality and 'fast shipping,' indicating a generally positive experience, especially considering the price point."
+      },
+      "processing_time": 5.985552072525024
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "4",
+      "type": "review",
+      "original_text": "Absolutely love it! Best purchase I've made this year. Highly recommend to everyone.",
+      "classification": {
+        "sentiment": "positive",
+        "confidence": 0.95,
+        "reasoning": "The text uses strong positive language like 'Absolutely love it!' and 'Best purchase,' indicating a very favorable opinion."
+      },
+      "processing_time": 7.419833660125732
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "5",
+      "type": "review",
+      "original_text": "Waste of money. Poor quality materials and doesn't work as advertised.",
+      "classification": {
+        "sentiment": "negative",
+        "confidence": 0.95,
+        "reasoning": "The text expresses strong dissatisfaction with the product, using phrases like 'waste of money,' 'poor quality materials,' and 'doesn't work as advertised,' indicating a negative experience."
+      },
+      "processing_time": 8.86043930053711
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "6",
+      "type": "review",
+      "original_text": "Good product overall. Some minor issues with setup but works well now.",
+      "classification": {
+        "sentiment": "positive",
+        "confidence": 0.85,
+        "reasoning": "Despite some initial setup issues, the overall assessment is positive due to the statement 'Good product overall' and 'works well now'."
+      },
+      "processing_time": 10.365352153778076
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "7",
+      "type": "review",
+      "original_text": "Average product. Nothing special but not bad either. Fair price.",
+      "classification": {
+        "sentiment": "neutral",
+        "confidence": 0.7,
+        "reasoning": "The text expresses a lukewarm opinion - 'nothing special but not bad' suggests neither strong positive nor negative feelings. 'Fair price' adds a neutral element."
+      },
+      "processing_time": 11.768168687820435
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "8",
+      "type": "review",
+      "original_text": "Horrible quality control. Scratches all over the surface right out of the box.",
+      "classification": {
+        "sentiment": "negative",
+        "confidence": 0.95,
+        "reasoning": "The text explicitly describes a negative experience with 'horrible quality control' and a damaged product ('scratches all over the surface')."
+      },
+      "processing_time": 13.155247926712036
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "9",
+      "type": "review",
+      "original_text": "Fantastic! Easy to use and exactly what I needed. Five stars!",
+      "classification": {
+        "sentiment": "positive",
+        "confidence": 0.95,
+        "reasoning": "The text contains overwhelmingly positive words like 'Fantastic!', 'Easy to use', and 'exactly what I needed', along with a strong positive indicator 'Five stars!'"
+      },
+      "processing_time": 15.209487199783325
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "10",
+      "type": "review",
+      "original_text": "Disappointed. Much smaller than expected and feels cheap.",
+      "classification": {
+        "sentiment": "negative",
+        "confidence": 0.9,
+        "reasoning": "The text expresses disappointment and describes the product as 'much smaller than expected' and 'feels cheap,' indicating a negative experience."
+      },
+      "processing_time": 16.823112964630127
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "11",
+      "type": "review",
+      "original_text": "Great value for money. Performs better than more expensive alternatives.",
+      "classification": {
+        "sentiment": "positive",
+        "confidence": 0.95,
+        "reasoning": "The text expresses satisfaction with the value and performance, using positive language like 'Great value' and 'performs better'."
+      },
+      "processing_time": 18.48040008544922
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "12",
+      "type": "review",
+      "original_text": "So-so experience. Works fine but battery life is shorter than claimed.",
+      "classification": {
+        "sentiment": "neutral",
+        "confidence": 0.7,
+        "reasoning": "The text contains both positive ('Works fine') and negative ('shorter than claimed') elements, resulting in a mixed and ultimately neutral overall sentiment.  The 'so-so' descriptor further reinforces this."
+      },
+      "processing_time": 19.864725351333618
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "13",
+      "type": "review",
+      "original_text": "Excellent customer service saved this purchase. Had an issue but they resolved it quickly.",
+      "classification": {
+        "sentiment": "positive",
+        "confidence": 0.95,
+        "reasoning": "The text explicitly states 'Excellent customer service' and 'resolved it quickly,' indicating a positive experience despite an initial issue."
+      },
+      "processing_time": 21.07705569267273
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "14",
+      "type": "review",
+      "original_text": "Complete garbage. Fell apart after first use. Avoid at all costs.",
+      "classification": {
+        "sentiment": "negative",
+        "confidence": 0.95,
+        "reasoning": "The text uses strongly negative language ('complete garbage', 'fell apart', 'avoid at all costs') indicating a very poor experience."
+      },
+      "processing_time": 22.582767009735107
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "15",
+      "type": "review",
+      "original_text": "Solid product. Does exactly what it says on the tin. No complaints.",
+      "classification": {
+        "sentiment": "positive",
+        "confidence": 0.95,
+        "reasoning": "The text expresses satisfaction with the product's functionality and lack of issues ('Solid product', 'Does exactly what it says', 'No complaints')."
+      },
+      "processing_time": 23.98831009864807
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "16",
+      "type": "review",
+      "original_text": "Not impressed. Overpriced for what you get. Better options available.",
+      "classification": {
+        "sentiment": "negative",
+        "confidence": 0.85,
+        "reasoning": "The text expresses dissatisfaction with the value received ('overpriced', 'better options available') and uses a negative phrase ('Not impressed')."
+      },
+      "processing_time": 25.445727348327637
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "17",
+      "type": "review",
+      "original_text": "Perfect for my needs. Lightweight, durable, and stylish design.",
+      "classification": {
+        "sentiment": "positive",
+        "confidence": 0.95,
+        "reasoning": "The text uses positive adjectives like 'perfect,' 'lightweight,' 'durable,' and 'stylish,' indicating a favorable opinion."
+      },
+      "processing_time": 26.86664128303528
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "18",
+      "type": "review",
+      "original_text": "Mediocre at best. Functions okay but lacks advanced features competitors offer.",
+      "classification": {
+        "sentiment": "negative",
+        "confidence": 0.85,
+        "reasoning": "The text uses negative descriptors like 'mediocre' and 'lacks,' indicating a generally unfavorable opinion despite the functional aspect."
+      },
+      "processing_time": 28.30766487121582
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "19",
+      "type": "review",
+      "original_text": "Love the design and functionality. My friends all want one now!",
+      "classification": {
+        "sentiment": "positive",
+        "confidence": 0.95,
+        "reasoning": "The text expresses enthusiasm ('Love'), mentions positive social impact ('My friends all want one now!') indicating a favorable opinion."
+      },
+      "processing_time": 29.537575244903564
+    },
+    {
+      "source": "reviews_unlabelled.csv",
+      "id": "20",
+      "type": "review",
+      "original_text": "Defective unit received. Waiting for replacement but frustrated with delay.",
+      "classification": {
+        "sentiment": "negative",
+        "confidence": 0.85,
+        "reasoning": "The text expresses frustration due to a defective product and a delay in receiving a replacement, indicating a negative experience."
+      },
+      "processing_time": 30.70319366455078
+    }
+  ]
+}

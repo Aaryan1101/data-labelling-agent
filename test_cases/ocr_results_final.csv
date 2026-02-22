@@ -1,0 +1,5 @@
+image_path,width,height,channels,extracted_text,word_count,line_count,confidence,processing_time_ms
+vision data/ocr_samples/document_01.png,600,300,3,"INVOICE #1234
+Date: 2024-01-15
+Amount: $250.00
+Payment Due: 2024-02-15",8,4,0.92,150

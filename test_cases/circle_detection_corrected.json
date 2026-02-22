@@ -1,0 +1,28 @@
+{
+  "image_path": "vision data/auto_label_dataset/circle_01.png",
+  "detection_method": "opencv_circularity_analysis",
+  "image_dimensions": {
+    "width": 400,
+    "height": 400,
+    "channels": 3
+  },
+  "num_detections": 1,
+  "objects": [
+    {
+      "id": 1,
+      "label": "circle",
+      "confidence": 0.897,
+      "bbox": {
+        "x": 84,
+        "y": 99,
+        "width": 196,
+        "height": 216,
+        "center_x": 182,
+        "center_y": 207
+      },
+      "area": 32933.0,
+      "circularity": 0.897,
+      "perimeter": 679.411247253418
+    }
+  ]
+}

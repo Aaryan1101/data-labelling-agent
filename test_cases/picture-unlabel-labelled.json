@@ -1,0 +1,371 @@
+{
+  "image_path": "picture-unlabel.webp",
+  "filename": "picture-unlabel.webp",
+  "timestamp": "2026-02-22T04:11:56.985008",
+  "image_dimensions": {
+    "width": 575,
+    "height": 280,
+    "channels": 3
+  },
+  "detection_method": "opencv_contour_analysis",
+  "num_detections": 21,
+  "objects": [
+    {
+      "id": 1,
+      "label": "polygon",
+      "confidence": 0.7,
+      "circularity": 0.097,
+      "vertices": 2,
+      "bbox": {
+        "x": 0,
+        "y": 260,
+        "width": 575,
+        "height": 20,
+        "center_x": 287,
+        "center_y": 270
+      },
+      "area": 10906.0,
+      "perimeter": 1186.0
+    },
+    {
+      "id": 2,
+      "label": "polygon",
+      "confidence": 0.7,
+      "circularity": 0.705,
+      "vertices": 7,
+      "bbox": {
+        "x": 292,
+        "y": 192,
+        "width": 18,
+        "height": 12,
+        "center_x": 301,
+        "center_y": 198
+      },
+      "area": 129.5,
+      "perimeter": 48.041630148887634
+    },
+    {
+      "id": 5,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.483,
+      "vertices": 10,
+      "bbox": {
+        "x": 103,
+        "y": 188,
+        "width": 25,
+        "height": 14,
+        "center_x": 115,
+        "center_y": 195
+      },
+      "area": 188.5,
+      "perimeter": 70.04163014888763
+    },
+    {
+      "id": 6,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.48,
+      "vertices": 10,
+      "bbox": {
+        "x": 333,
+        "y": 187,
+        "width": 26,
+        "height": 17,
+        "center_x": 346,
+        "center_y": 195
+      },
+      "area": 209.0,
+      "perimeter": 73.94112455844879
+    },
+    {
+      "id": 7,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.708,
+      "vertices": 10,
+      "bbox": {
+        "x": 213,
+        "y": 187,
+        "width": 17,
+        "height": 13,
+        "center_x": 221,
+        "center_y": 193
+      },
+      "area": 136.5,
+      "perimeter": 49.21320307254791
+    },
+    {
+      "id": 12,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.487,
+      "vertices": 10,
+      "bbox": {
+        "x": 430,
+        "y": 180,
+        "width": 18,
+        "height": 22,
+        "center_x": 439,
+        "center_y": 191
+      },
+      "area": 208.5,
+      "perimeter": 73.35533833503723
+    },
+    {
+      "id": 13,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.432,
+      "vertices": 12,
+      "bbox": {
+        "x": 361,
+        "y": 176,
+        "width": 18,
+        "height": 25,
+        "center_x": 370,
+        "center_y": 188
+      },
+      "area": 227.0,
+      "perimeter": 81.25483322143555
+    },
+    {
+      "id": 14,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.252,
+      "vertices": 12,
+      "bbox": {
+        "x": 157,
+        "y": 176,
+        "width": 32,
+        "height": 30,
+        "center_x": 173,
+        "center_y": 191
+      },
+      "area": 412.5,
+      "perimeter": 143.29646337032318
+    },
+    {
+      "id": 16,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.281,
+      "vertices": 9,
+      "bbox": {
+        "x": 191,
+        "y": 174,
+        "width": 19,
+        "height": 29,
+        "center_x": 200,
+        "center_y": 188
+      },
+      "area": 238.0,
+      "perimeter": 103.25483310222626
+    },
+    {
+      "id": 17,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.188,
+      "vertices": 13,
+      "bbox": {
+        "x": 305,
+        "y": 169,
+        "width": 16,
+        "height": 28,
+        "center_x": 313,
+        "center_y": 183
+      },
+      "area": 170.0,
+      "perimeter": 106.56854152679443
+    },
+    {
+      "id": 19,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.349,
+      "vertices": 12,
+      "bbox": {
+        "x": 450,
+        "y": 167,
+        "width": 33,
+        "height": 36,
+        "center_x": 466,
+        "center_y": 185
+      },
+      "area": 628.5,
+      "perimeter": 150.46803629398346
+    },
+    {
+      "id": 46,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.242,
+      "vertices": 10,
+      "bbox": {
+        "x": 437,
+        "y": 121,
+        "width": 46,
+        "height": 59,
+        "center_x": 460,
+        "center_y": 150
+      },
+      "area": 1258.5,
+      "perimeter": 255.86500453948975
+    },
+    {
+      "id": 65,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.15,
+      "vertices": 10,
+      "bbox": {
+        "x": 158,
+        "y": 103,
+        "width": 53,
+        "height": 76,
+        "center_x": 184,
+        "center_y": 141
+      },
+      "area": 1604.5,
+      "perimeter": 366.91882717609406
+    },
+    {
+      "id": 69,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.259,
+      "vertices": 9,
+      "bbox": {
+        "x": 102,
+        "y": 97,
+        "width": 39,
+        "height": 30,
+        "center_x": 121,
+        "center_y": 112
+      },
+      "area": 457.5,
+      "perimeter": 149.09545266628265
+    },
+    {
+      "id": 76,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.117,
+      "vertices": 12,
+      "bbox": {
+        "x": 454,
+        "y": 90,
+        "width": 17,
+        "height": 31,
+        "center_x": 462,
+        "center_y": 105
+      },
+      "area": 136.0,
+      "perimeter": 120.71067678928375
+    },
+    {
+      "id": 91,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.083,
+      "vertices": 9,
+      "bbox": {
+        "x": 300,
+        "y": 81,
+        "width": 47,
+        "height": 89,
+        "center_x": 323,
+        "center_y": 125
+      },
+      "area": 1807.0,
+      "perimeter": 523.1858524084091
+    },
+    {
+      "id": 98,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.113,
+      "vertices": 9,
+      "bbox": {
+        "x": 188,
+        "y": 69,
+        "width": 17,
+        "height": 24,
+        "center_x": 196,
+        "center_y": 81
+      },
+      "area": 104.5,
+      "perimeter": 107.63960909843445
+    },
+    {
+      "id": 100,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.281,
+      "vertices": 9,
+      "bbox": {
+        "x": 331,
+        "y": 59,
+        "width": 24,
+        "height": 35,
+        "center_x": 343,
+        "center_y": 76
+      },
+      "area": 359.0,
+      "perimeter": 126.71067750453949
+    },
+    {
+      "id": 101,
+      "label": "polygon",
+      "confidence": 0.7,
+      "circularity": 0.266,
+      "vertices": 8,
+      "bbox": {
+        "x": 231,
+        "y": 55,
+        "width": 58,
+        "height": 150,
+        "center_x": 260,
+        "center_y": 130
+      },
+      "area": 5981.5,
+      "perimeter": 531.9726495742798
+    },
+    {
+      "id": 102,
+      "label": "polygon",
+      "confidence": 0.7,
+      "circularity": 0.397,
+      "vertices": 7,
+      "bbox": {
+        "x": 307,
+        "y": 50,
+        "width": 19,
+        "height": 33,
+        "center_x": 316,
+        "center_y": 66
+      },
+      "area": 342.0,
+      "perimeter": 104.08326017856598
+    },
+    {
+      "id": 103,
+      "label": "circle",
+      "confidence": 0.75,
+      "circularity": 0.123,
+      "vertices": 9,
+      "bbox": {
+        "x": 369,
+        "y": 47,
+        "width": 58,
+        "height": 160,
+        "center_x": 398,
+        "center_y": 127
+      },
+      "area": 5279.5,
+      "perimeter": 732.96759724617
+    }
+  ]
+}

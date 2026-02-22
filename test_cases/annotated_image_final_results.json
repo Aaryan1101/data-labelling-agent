@@ -1,0 +1,7 @@
+{
+  "source": "final_agent_annotated.jpg",
+  "type": "annotated_image_analysis",
+  "prompt": "cat",
+  "num_detections": 0,
+  "detections": []
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "image_path": "vision data/auto_label_dataset/circle_01.png",
+    "dimensions": [
+      400,
+      400
+    ],
+    "channels": 3,
+    "contours_found": 1,
+    "analysis_type": "basic_opencv"
+  }
+]

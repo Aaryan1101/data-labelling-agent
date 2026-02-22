@@ -1,0 +1,310 @@
+{
+  "batch_info": {
+    "total_images": 15,
+    "processing_time_seconds": 0.39,
+    "avg_time_per_image": 0.026,
+    "timestamp": "2026-02-22T04:05:02.907088"
+  },
+  "results": [
+    {
+      "image_path": "vision data/auto_label_dataset\\circle_01.png",
+      "filename": "circle_01.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "circle",
+          "confidence": 0.897,
+          "bbox": {
+            "x": 84,
+            "y": 99,
+            "width": 196,
+            "height": 216
+          },
+          "area": 32933.0
+        }
+      ],
+      "processing_time": 0.3310058116912842
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\circle_05.png",
+      "filename": "circle_05.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "circle",
+          "confidence": 0.888,
+          "bbox": {
+            "x": 117,
+            "y": 99,
+            "width": 159,
+            "height": 193
+          },
+          "area": 23818.0
+        }
+      ],
+      "processing_time": 0.3407468795776367
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\circle_09.png",
+      "filename": "circle_09.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "circle",
+          "confidence": 0.886,
+          "bbox": {
+            "x": 110,
+            "y": 78,
+            "width": 206,
+            "height": 252
+          },
+          "area": 40423.0
+        }
+      ],
+      "processing_time": 0.3442709445953369
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\circle_13.png",
+      "filename": "circle_13.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "circle",
+          "confidence": 0.891,
+          "bbox": {
+            "x": 71,
+            "y": 112,
+            "width": 252,
+            "height": 218
+          },
+          "area": 42791.0
+        }
+      ],
+      "processing_time": 0.34728169441223145
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\rectangle_04.png",
+      "filename": "rectangle_04.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "rectangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 120,
+            "y": 152,
+            "width": 165,
+            "height": 92
+          },
+          "area": 14924.0
+        }
+      ],
+      "processing_time": 0.3497905731201172
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\rectangle_08.png",
+      "filename": "rectangle_08.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "rectangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 117,
+            "y": 145,
+            "width": 193,
+            "height": 114
+          },
+          "area": 21696.0
+        }
+      ],
+      "processing_time": 0.3518059253692627
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\rectangle_12.png",
+      "filename": "rectangle_12.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "rectangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 125,
+            "y": 149,
+            "width": 158,
+            "height": 101
+          },
+          "area": 15700.0
+        }
+      ],
+      "processing_time": 0.3566017150878906
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\square_02.png",
+      "filename": "square_02.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "square",
+          "confidence": 0.9,
+          "bbox": {
+            "x": 121,
+            "y": 110,
+            "width": 158,
+            "height": 178
+          },
+          "area": 27789.0
+        }
+      ],
+      "processing_time": 0.3624887466430664
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\square_06.png",
+      "filename": "square_06.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "square",
+          "confidence": 0.9,
+          "bbox": {
+            "x": 73,
+            "y": 75,
+            "width": 253,
+            "height": 218
+          },
+          "area": 54684.0
+        }
+      ],
+      "processing_time": 0.3660142421722412
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\square_10.png",
+      "filename": "square_10.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "square",
+          "confidence": 0.9,
+          "bbox": {
+            "x": 78,
+            "y": 77,
+            "width": 216,
+            "height": 223
+          },
+          "area": 47730.0
+        }
+      ],
+      "processing_time": 0.36954212188720703
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\square_14.png",
+      "filename": "square_14.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "rectangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 119,
+            "y": 124,
+            "width": 192,
+            "height": 153
+          },
+          "area": 29032.0
+        }
+      ],
+      "processing_time": 0.3743326663970947
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\triangle_03.png",
+      "filename": "triangle_03.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "triangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 92,
+            "y": 81,
+            "width": 212,
+            "height": 193
+          },
+          "area": 20249.5
+        }
+      ],
+      "processing_time": 0.3795278072357178
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\triangle_07.png",
+      "filename": "triangle_07.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "triangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 73,
+            "y": 78,
+            "width": 203,
+            "height": 194
+          },
+          "area": 19493.0
+        }
+      ],
+      "processing_time": 0.3825266361236572
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\triangle_11.png",
+      "filename": "triangle_11.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "triangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 130,
+            "y": 92,
+            "width": 169,
+            "height": 198
+          },
+          "area": 16548.0
+        }
+      ],
+      "processing_time": 0.3835303783416748
+    },
+    {
+      "image_path": "vision data/auto_label_dataset\\triangle_15.png",
+      "filename": "triangle_15.png",
+      "num_detections": 1,
+      "objects": [
+        {
+          "id": 1,
+          "label": "triangle",
+          "confidence": 0.85,
+          "bbox": {
+            "x": 89,
+            "y": 75,
+            "width": 224,
+            "height": 226
+          },
+          "area": 25087.5
+        }
+      ],
+      "processing_time": 0.38606810569763184
+    }
+  ]
+}

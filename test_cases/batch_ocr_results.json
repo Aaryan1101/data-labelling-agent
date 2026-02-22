@@ -1,0 +1,26 @@
+[
+  {
+    "document_id": 1,
+    "image_path": "vision data/ocr_samples/document_01.png",
+    "extracted_text": "INVOICE #1234\nDate: 2024-01-15\nAmount: $250.00",
+    "confidence": 0.88,
+    "word_count": 6,
+    "status": "success"
+  },
+  {
+    "document_id": 2,
+    "image_path": "vision data/ocr_samples/document_02.png",
+    "extracted_text": "RECEIPT\nStore: ABC Mart\nTotal: $45.67",
+    "confidence": 0.9,
+    "word_count": 6,
+    "status": "success"
+  },
+  {
+    "document_id": 3,
+    "image_path": "vision data/ocr_samples/document_03.png",
+    "extracted_text": "CONTRACT\nAgreement Date: 2024-01-10\nTerms: Net 30",
+    "confidence": 0.92,
+    "word_count": 7,
+    "status": "success"
+  }
+]

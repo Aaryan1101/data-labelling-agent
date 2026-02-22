@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "headline": "Federal Reserve raises interest rates by 0.25% to combat inflation",
+    "date": "2024-01-15"
+  },
+  {
+    "id": 2,
+    "headline": "New breakthrough in cancer immunotherapy shows 90% remission rates",
+    "date": "2024-01-14"
+  },
+  {
+    "id": 3,
+    "headline": "Tech giant announces layoffs affecting 10,000 employees worldwide",
+    "date": "2024-01-13"
+  },
+  {
+    "id": 4,
+    "headline": "Championship finals end in dramatic overtime victory for underdogs",
+    "date": "2024-01-12"
+  },
+  {
+    "id": 5,
+    "headline": "Global climate summit reaches historic agreement on carbon emissions",
+    "date": "2024-01-11"
+  },
+  {
+    "id": 6,
+    "headline": "Stock market hits record high amid strong quarterly earnings reports",
+    "date": "2024-01-10"
+  },
+  {
+    "id": 7,
+    "headline": "Revolutionary AI model passes medical licensing examination with top scores",
+    "date": "2024-01-09"
+  },
+  {
+    "id": 8,
+    "headline": "Major cybersecurity breach exposes data of 50 million users",
+    "date": "2024-01-08"
+  },
+  {
+    "id": 9,
+    "headline": "Olympic committee selects host city for 2032 summer games",
+    "date": "2024-01-07"
+  },
+  {
+    "id": 10,
+    "headline": "Senate passes controversial infrastructure bill after months of debate",
+    "date": "2024-01-06"
+  },
+  {
+    "id": 11,
+    "headline": "Cryptocurrency markets volatile as regulatory framework uncertainty continues",
+    "date": "2024-01-05"
+  },
+  {
+    "id": 12,
+    "headline": "Groundbreaking gene therapy approved for rare genetic disorder treatment",
+    "date": "2024-01-04"
+  },
+  {
+    "id": 13,
+    "headline": "Electric vehicle startup announces partnership with major battery manufacturer",
+    "date": "2024-01-03"
+  },
+  {
+    "id": 14,
+    "headline": "Star quarterback announces retirement after legendary 15-year career",
+    "date": "2024-01-02"
+  },
+  {
+    "id": 15,
+    "headline": "Supreme Court ruling impacts voting rights legislation in multiple states",
+    "date": "2024-01-01"
+  },
+  {
+    "id": 16,
+    "headline": "Housing market shows signs of cooling as mortgage rates climb higher",
+    "date": "2024-12-31"
+  },
+  {
+    "id": 17,
+    "headline": "Mental health app usage surges among teenagers during holiday season",
+    "date": "2024-12-30"
+  },
+  {
+    "id": 18,
+    "headline": "Quantum computing breakthrough achieves 1000-qubit milestone",
+    "date": "2024-12-29"
+  },
+  {
+    "id": 19,
+    "headline": "Underdog tennis player wins Grand Slam in stunning upset victory",
+    "date": "2024-12-28"
+  },
+  {
+    "id": 20,
+    "headline": "International trade agreement negotiations stall over agricultural disputes",
+    "date": "2024-12-27"
+  },
+  {
+    "id": 21,
+    "headline": "Banking sector reports strongest quarterly profits in five years",
+    "date": "2024-12-26"
+  },
+  {
+    "id": 22,
+    "headline": "Wearable health technology predicts heart attacks hours before symptoms",
+    "date": "2024-12-25"
+  },
+  {
+    "id": 23,
+    "headline": "Social media platform launches new features to combat misinformation",
+    "date": "2024-12-24"
+  },
+  {
+    "id": 24,
+    "headline": "Boxing match generates record-breaking pay-per-view revenue numbers",
+    "date": "2024-12-23"
+  },
+  {
+    "id": 25,
+    "headline": "Diplomatic tensions rise as military exercises conducted near disputed waters",
+    "date": "2024-12-22"
+  },
+  {
+    "id": 26,
+    "headline": "Venture capital funding for AI startups reaches unprecedented levels",
+    "date": "2024-12-21"
+  },
+  {
+    "id": 27,
+    "headline": "Plant-based meat alternatives show declining sales after initial boom",
+    "date": "2024-12-20"
+  },
+  {
+    "id": 28,
+    "headline": "Satellite internet constellation expands coverage to remote regions",
+    "date": "2024-12-19"
+  },
+  {
+    "id": 29,
+    "headline": "Soccer league investigates match-fixing allegations involving top clubs",
+    "date": "2024-12-18"
+  },
+  {
+    "id": 30,
+    "headline": "Environmental activists protest new oil drilling permits in sensitive areas",
+    "date": "2024-12-17"
+  },
+  {
+    "id": 31,
+    "headline": "Consumer spending patterns shift dramatically toward experiential purchases",
+    "date": "2024-12-16"
+  },
+  {
+    "id": 32,
+    "headline": "Longevity research identifies key biomarkers for healthy aging process",
+    "date": "2024-12-15"
+  },
+  {
+    "id": 33,
+    "headline": "Autonomous vehicle testing expands to major metropolitan areas",
+    "date": "2024-12-14"
+  },
+  {
+    "id": 34,
+    "headline": "Golf tournament concludes with dramatic playoff finish after weather delays",
+    "date": "2024-12-13"
+  },
+  {
+    "id": 35,
+    "headline": "Campaign finance reform bill faces uphill battle in divided legislature",
+    "date": "2024-12-12"
+  },
+  {
+    "id": 36,
+    "headline": "Emerging market currencies stabilize after central bank interventions",
+    "date": "2024-12-11"
+  },
+  {
+    "id": 37,
+    "headline": "Pediatric vaccine schedule updated to include protection against new virus strain",
+    "date": "2024-12-10"
+  },
+  {
+    "id": 38,
+    "headline": "Cloud computing providers announce price cuts amid intense competition",
+    "date": "2024-12-09"
+  },
+  {
+    "id": 39,
+    "headline": "Winter Olympics preparation on track despite concerns over snow conditions",
+    "date": "2024-12-08"
+  },
+  {
+    "id": 40,
+    "headline": "Local government elections see record voter turnout across multiple districts",
+    "date": "2024-12-07"
+  }
+]

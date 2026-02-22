@@ -1,0 +1,14 @@
+{
+  "image_path": "vision data/ocr_samples/document_01.png",
+  "ocr_method": "mock_tesseract",
+  "image_dimensions": {
+    "width": 600,
+    "height": 300,
+    "channels": 3
+  },
+  "extracted_text": "INVOICE #1234\nDate: 2024-01-15\nAmount: $250.00\nPayment Due: 2024-02-15",
+  "confidence": 0.92,
+  "word_count": 8,
+  "line_count": 4,
+  "processing_time_ms": 150
+}
