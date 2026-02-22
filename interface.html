@@ -305,12 +305,20 @@
             formData.append('file', file);
             formData.append('command', command);
             
-            const response = await fetch('http://localhost:5003/webhook', {
-                method: 'POST',
-                body: formData
-            });
-            
-            return await response.json();
+            try {
+                const response = await fetch('http://localhost:5003/webhook', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: formData
+                });
+                
+                return await response.json();
+            } catch (error) {
+                console.error('Error processing text:', error);
+                throw error;
+            }
         }
         
         async function checkAgentStatus() {

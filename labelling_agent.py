@@ -769,12 +769,7 @@ if __name__ == "__main__":
         api_key=os.environ["ZYND_API_KEY"],
         config_dir=".agent-labelling",
         use_ngrok=True,
-        ngrok_auth_token=os.environ.get(
-            "NGROK_AUTH_TOKEN"
-        ),  # Or set globally via: ngrok config add-authtoken <token>
-        ngrok_auth_token=os.environ.get(
-            "NGROK_AUTH_TOKEN"
-        ),  # Or set globally via: ngrok config add-authtoken <token>,
+        ngrok_auth_token=os.environ.get("NGROK_AUTH_TOKEN"),  
         webhook_methods=["GET", "POST", "PUT", "DELETE"]  # Allow all HTTP methods
     )
 
