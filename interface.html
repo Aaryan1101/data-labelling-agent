@@ -247,16 +247,26 @@
             const loading = document.getElementById('loading');
             const results = document.getElementById('results');
             const resultContent = document.getElementById('resultContent');
+            const processBtn = document.getElementById('processBtn');
             
             if (!command) {
                 showError('Please enter a command');
                 return;
             }
             
+            // Check agent status first
             loading.style.display = 'block';
             results.style.display = 'none';
+            processBtn.disabled = true;
             
             try {
+                const isAgentOnline = await checkAgentStatus();
+                
+                if (!isAgentOnline) {
+                    showError('Agent is not online. Please start the agent first.');
+                    return;
+                }
+                
                 let response;
                 
                 if (selectedImage) {
@@ -273,6 +283,7 @@
                 showError('Error: ' + error.message);
             } finally {
                 loading.style.display = 'none';
+                processBtn.disabled = false;
             }
         }
         
@@ -287,6 +298,41 @@
             });
             
             return await response.json();
+        }
+        
+        async function processWithText(file, command) {
+            const formData = new FormData();
+            formData.append('file', file);
+            formData.append('command', command);
+            
+            const response = await fetch('http://localhost:5003/webhook', {
+                method: 'POST',
+                body: formData
+            });
+            
+            return await response.json();
+        }
+        
+        async function checkAgentStatus() {
+            try {
+                const response = await fetch('http://localhost:5003/webhook', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        'content': 'status check',
+                        'chat_history': []
+                    })
+                });
+                
+                const status = await response.json();
+                console.log('Agent Status:', status);
+                return status.online === true;
+            } catch (error) {
+                console.error('Status check failed:', error);
+                return false;
+            }
         }
         
         async function processWithText(file, command) {

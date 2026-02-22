@@ -16,7 +16,11 @@ ZYND_WEBHOOK_URL = "http://localhost:5003/webhook"
 
 @app.route('/')
 def index():
-    return send_file('interface.html')
+    return '''
+    <h1>🤖 ZyndAI Agent Interface</h1>
+    <p>Open <a href="http://localhost:8080/interface">http://localhost:8080/interface</a> for the web interface</p>
+    <p>Or access directly: <a href="http://localhost:8080/interface.html">http://localhost:8080/interface.html</a></p>
+    '''
 
 @app.route('/process', methods=['POST'])
 def process():
@@ -50,10 +54,20 @@ def process():
         # Clean up temp file
         os.remove(filepath)
         
-        return jsonify(response.json()), 200
+        # Return response with CORS headers
+        response_data = response.json()
+        return jsonify(response_data), 200, {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type'
+        }
         
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return jsonify({'error': str(e)}), 500, {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type'
+        }
 
 if __name__ == '__main__':
     os.makedirs('temp', exist_ok=True)
