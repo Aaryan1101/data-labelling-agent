@@ -769,8 +769,9 @@ if __name__ == "__main__":
         api_key=os.environ["ZYND_API_KEY"],
         config_dir=".agent-labelling",
         use_ngrok=True,
-        ngrok_domain="localhost",  # Direct to frontend
-        ngrok_subdomain="frontend",  # Custom subdomain
+        ngrok_auth_token=os.environ.get(
+            "NGROK_AUTH_TOKEN"
+        ),  # Or set globally via: ngrok config add-authtoken <token>
         ngrok_auth_token=os.environ.get(
             "NGROK_AUTH_TOKEN"
         ),  # Or set globally via: ngrok config add-authtoken <token>,
