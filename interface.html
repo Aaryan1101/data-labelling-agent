@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZyndAI Labelling Agent</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #fff;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .header p {
+            color: #ccc;
+            font-size: 1.1em;
+        }
+        
+        .upload-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .upload-box {
+            background: #fff;
+            border: 2px dashed #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .file-label {
+            display: block;
+            padding: 15px;
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 10px;
+        }
+        
+        .file-label:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
+        }
+        
+        .results-section {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        
+        .result-item {
+            background: #f8f9fa;
+            border-left: 4px solid #4CAF50;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        .result-json {
+            background: #f1f3f4;
+            color: #333;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9em;
+            white-space: pre-wrap;
+            overflow-x: auto;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #f5c6cb;
+        }
+        
+        .success {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #c3e6cb;
+        }
+        
+        .button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        .button:hover {
+            background: #0056b3;
+        }
+        
+        .button:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+        
+        .command-input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .file-info {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 ZyndAI Labelling Agent</h1>
+            <p>Upload images or text files for intelligent data labelling</p>
+        </div>
+        
+        <div class="upload-section">
+            <div class="upload-box">
+                <h3>📷 Image Upload</h3>
+                <input type="file" id="imageInput" accept="image/*" class="file-input">
+                <label for="imageInput" class="file-label">
+                    📁 Choose Image File
+                </label>
+                <div class="file-info" id="imageInfo"></div>
+            </div>
+            
+            <div class="upload-box">
+                <h3>📄 Text File Upload</h3>
+                <input type="file" id="textInput" accept=".csv,.json,.txt,.pdf" class="file-input">
+                <label for="textInput" class="file-label">
+                    📁 Choose Text File
+                </label>
+                <div class="file-info" id="textInfo"></div>
+            </div>
+        </div>
+        
+        <div class="upload-section">
+            <div class="upload-box">
+                <h3>💬 Command</h3>
+                <input type="text" id="commandInput" class="command-input" 
+                       placeholder="Enter command (e.g., 'detect dogs in image.jpg', 'classify data.csv')">
+            </div>
+            <button id="processBtn" class="button" onclick="processData()">
+                🚀 Process
+            </button>
+        </div>
+        
+        <div id="loading" class="loading" style="display: none;">
+            <p>⏳ Processing... Please wait</p>
+        </div>
+        
+        <div id="results" class="results-section" style="display: none;">
+            <h3>📊 Results</h3>
+            <div id="resultContent"></div>
+        </div>
+    </div>
+
+    <script>
+        let selectedImage = null;
+        let selectedText = null;
+        
+        // Image file selection
+        document.getElementById('imageInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                selectedImage = file;
+                document.getElementById('imageInfo').textContent = `📷 ${file.name} (${formatFileSize(file.size)})`;
+            }
+        });
+        
+        // Text file selection
+        document.getElementById('textInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                selectedText = file;
+                document.getElementById('textInfo').textContent = `📄 ${file.name} (${formatFileSize(file.size)})`;
+            }
+        });
+        
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+        
+        async function processData() {
+            const command = document.getElementById('commandInput').value.trim();
+            const loading = document.getElementById('loading');
+            const results = document.getElementById('results');
+            const resultContent = document.getElementById('resultContent');
+            
+            if (!command) {
+                showError('Please enter a command');
+                return;
+            }
+            
+            loading.style.display = 'block';
+            results.style.display = 'none';
+            
+            try {
+                let response;
+                
+                if (selectedImage) {
+                    response = await processWithImage(selectedImage, command);
+                } else if (selectedText) {
+                    response = await processWithText(selectedText, command);
+                } else {
+                    showError('Please upload an image or text file first');
+                    return;
+                }
+                
+                showResult(response, command);
+            } catch (error) {
+                showError('Error: ' + error.message);
+            } finally {
+                loading.style.display = 'none';
+            }
+        }
+        
+        async function processWithImage(file, command) {
+            const formData = new FormData();
+            formData.append('image', file);
+            formData.append('command', command);
+            
+            const response = await fetch('http://localhost:5003/webhook', {
+                method: 'POST',
+                body: formData
+            });
+            
+            return await response.json();
+        }
+        
+        async function processWithText(file, command) {
+            const formData = new FormData();
+            formData.append('file', file);
+            formData.append('command', command);
+            
+            const response = await fetch('http://localhost:5003/webhook', {
+                method: 'POST',
+                body: formData
+            });
+            
+            return await response.json();
+        }
+        
+        function showResult(response, command) {
+            const results = document.getElementById('results');
+            const resultContent = document.getElementById('resultContent');
+            
+            results.style.display = 'block';
+            
+            let html = '<div class="result-item success">';
+            html += `<strong>✅ Command:</strong> ${command}<br>`;
+            html += `<strong>🕐 Response:</strong></div>`;
+            html += `<div class="result-json">${JSON.stringify(response, null, 2)}</div>`;
+            html += '</div>';
+            
+            resultContent.innerHTML = html;
+        }
+        
+        function showError(message) {
+            const results = document.getElementById('results');
+            const resultContent = document.getElementById('resultContent');
+            
+            results.style.display = 'block';
+            resultContent.innerHTML = `<div class="result-item error">❌ ${message}</div>`;
+        }
+    </script>
+</body>
+</html>
